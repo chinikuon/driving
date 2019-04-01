@@ -1,0 +1,7 @@
+country = input('where do you come from: ')
+age = input('type your age: ')
+if country == 'taiwan':
+	if int(age) >= 18:
+		print('you can get a license')
+	else:
+		print('not yet')
